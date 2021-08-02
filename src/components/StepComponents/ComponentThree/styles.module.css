@@ -1,0 +1,27 @@
+
+.componentThreeBox {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+
+	width: 80%;
+	height: 20%;
+
+	border: dotted dodgerblue 2px;
+	padding: 10px 50px;
+	margin: 10px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+
+	border: dotted dodgerblue 2px;
+	padding: 10px 50px;
+}
+
+.jsonContainer {
+	width: 300px;
+	max-width: 300px;
+	overflow: auto;
+}
